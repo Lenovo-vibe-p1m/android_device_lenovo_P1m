@@ -8,9 +8,9 @@ cd ../..
 cd bionic
 git apply -v --check ../device/lenovo/P1m/patches/0002-Apply-LIBC-version-to-__pthread_gettid.patch
 cd ..
-cd system/sepolicy/private
+cd system/sepolicy
 git apply -v --check ../../device/lenovo/P1m/patches/0003-Revert-back-to-policy-version-29.patch
-cd ../../..
+cd ../..
 cd frameworks/av
 git apply -v --check ../../device/lenovo/P1m/patches/frameworks_av.patch
 cd ../..
